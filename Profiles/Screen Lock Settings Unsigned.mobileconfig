@@ -44,6 +44,44 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.screensaver</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>askForPassword</key>
+								<integer>1</integer>
+								<key>askForPasswordDelay</key>
+								<integer>5</integer>
+								<key>tokenRemovalAction</key>
+								<integer>0</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Custom</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>B0378486-AF44-4C98-BF89-4A80F4377076</string>
+			<key>PayloadOrganization</key>
+			<string>Culture Amp</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>B0378486-AF44-4C98-BF89-4A80F4377076</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string></string>
@@ -52,7 +90,7 @@
 	<key>PayloadEnabled</key>
 	<true/>
 	<key>PayloadIdentifier</key>
-	<string>90F2D2EA-883F-4458-B2A4-7D6FB1E0BA3A</string>
+	<string>CE9CBFD8-F646-4130-99A3-754571E4A2A5</string>
 	<key>PayloadOrganization</key>
 	<string>Culture Amp</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -62,7 +100,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>90F2D2EA-883F-4458-B2A4-7D6FB1E0BA3A</string>
+	<string>CE9CBFD8-F646-4130-99A3-754571E4A2A5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
