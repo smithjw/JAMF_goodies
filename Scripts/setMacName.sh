@@ -4,7 +4,7 @@ jamfbinary='/usr/bin/which jamf'
 
 
 #######################################################################
-# Determine Mac Model
+# Gather Mac Information
 #######################################################################
 
 # Use serial number to determine the Mac model
@@ -12,8 +12,12 @@ model=$(curl http://support-sp.apple.com/sp/product?cc=`system_profiler SPHardwa
 
 # Uses grep to look for all text before (
 modelShort=$(echo "$model" | grep -o '^[^(]*')
-echo "$modelShort"
+echo "Model: $modelShort"
 
+modelClean=${modelShort%?}
+
+sn=$(ioreg -l | grep IOPlatformSerialNumber| cut -d'"' -f4 | grep -o '......$')
+echo "Serial (short): $sn"
 
 #######################################################################
 # Work out the desired hostname (First Inital . Last Name - j.smith)
@@ -24,18 +28,20 @@ user=$(python -c 'from SystemConfiguration import SCDynamicStoreCopyConsoleUser;
 
 #figure out the user's full name
 name=$(finger "$user" | awk -F: '{ print $3 }' | head -n1 | sed 's/^ //' )
+echo "Name: $name"
 
 # get first initial
 finitial="$(echo "$name" | head -c 1)"
 
 # get last name
-ln="$(echo "$name" | cut -d \  -f 2)"
+lname="$(echo "$name" | cut -d \  -f 2)"
 
 # add first and last together
-hostname=($finitial"."$ln"'s $modelShort")
+hn=$finitial$lname-$modelClean-$sn
 
 # clean up un to have all lower case
-#hostname=$(echo "$un" | awk '{print tolower($0)}')
+hostname=$(echo "$hn" | awk '{print tolower($0)}')
+echo "Hostname: $hostname"
 
 #######################################################################
 # Functions
@@ -43,6 +49,7 @@ hostname=($finitial"."$ln"'s $modelShort")
 
 sethostname() {
 	/usr/local/bin/jamf setComputerName -name "$hostname"
+	hostname -s "$hostname" 
 }
 
 ########################################################################
