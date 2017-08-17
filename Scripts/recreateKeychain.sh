@@ -2,7 +2,7 @@
 
 ###
 #
-#            Name:  recreate_keychain.sh
+#            Name:  recreateKeychain.sh
 #     Description:  This script deletes the user's login.keychain, prompts
 #                   the current user for their password, and then creates
 #                   a new keychain. Uses Applescript dialog and jamfHelper
