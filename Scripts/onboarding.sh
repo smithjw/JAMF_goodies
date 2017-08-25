@@ -8,3 +8,5 @@ open -a "Google Chrome" 'https://app.greenhouse.io/users/sign_in'
 open -a "Google Chrome" 'https://cultureamp.atlassian.net/wiki'
 
 osascript -e 'tell application "System Events" to keystroke "1" using {command down}'
+
+exit 0
