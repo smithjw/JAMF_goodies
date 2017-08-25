@@ -1,5 +1,6 @@
 #!/bin/bash
 
+open -a "Google Chrome" 'https://cultureamp.okta.com'
 open -a "Google Chrome" 'https://google.com/mail'
 open -a "Google Chrome" 'https://google.com/calendar'
 open -a "Google Chrome" 'https://cultureamp.bamboohr.com/'
