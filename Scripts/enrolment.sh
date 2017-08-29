@@ -1,7 +1,12 @@
 #!/bin/bash
+# shellcheck disable=SC2046
 
 jamfbinary=$(/usr/bin/which jamf)
 doneFile="/Users/Shared/.SplashBuddyDone"
+
+echo "Drinking some Red Bull so the Mac doesn't fall asleep"
+caffeinate -d -i -m -u &
+caffeinatepid=$!
 
 echo "Installing Zoom"
 ${jamfbinary} policy -event "install-Zoom"
@@ -48,6 +53,9 @@ rm -f /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
 
 echo "Deleting SplashBuddy"
 rm -rf "/Library/Application Support/SplashBuddy"
+
+echo "Drank waaaayyyyy too much Red Bull"
+kill "$caffeinatepid"
 
 echo "Logging user out to force FileVault encryption"
 kill -9 `pgrep loginwindow`
