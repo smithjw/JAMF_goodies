@@ -3,6 +3,9 @@
 jamfbinary=$(/usr/bin/which jamf)
 doneFile="/Users/Shared/.SplashBuddyDone"
 
+caffeinate -d -i -m -u &
+caffeinatepid=$!
+
 echo "Installing Zoom"
 ${jamfbinary} policy -event "install-Zoom"
 
@@ -48,6 +51,8 @@ rm -f /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
 
 echo "Deleting SplashBuddy"
 rm -rf "/Library/Application Support/SplashBuddy"
+
+kill "$caffeinatepid"
 
 echo "Logging user out to force FileVault encryption"
 kill -9 `pgrep loginwindow`
