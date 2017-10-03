@@ -11,16 +11,18 @@
 			<string>Login Window:  Screen Saver Preferences</string>
 			<key>PayloadEnabled</key>
 			<true/>
+			<key>PayloadIdentifier</key>
+			<string>056F5C4F-87B5-403D-8068-997D27A5C458</string>
 			<key>PayloadOrganization</key>
 			<string>Culture Amp</string>
 			<key>PayloadType</key>
 			<string>com.apple.screensaver</string>
+			<key>PayloadUUID</key>
+			<string>056F5C4F-87B5-403D-8068-997D27A5C458</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>askForPassword</key>
-			<true/>
-			<key>askForPasswordDelay</key>
-			<integer>5</integer>
+			<false/>
 		</dict>
 		<dict>
 			<key>PayloadDescription</key>
@@ -29,10 +31,14 @@
 			<string>Login Window</string>
 			<key>PayloadEnabled</key>
 			<true/>
+			<key>PayloadIdentifier</key>
+			<string>E5CE0C1C-FB38-452C-A804-E13EF8D39002</string>
 			<key>PayloadOrganization</key>
 			<string>Culture Amp</string>
 			<key>PayloadType</key>
 			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>E5CE0C1C-FB38-452C-A804-E13EF8D39002</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -47,9 +53,9 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>askForPassword</key>
-								<integer>1</integer>
+								<integer>0</integer>
 								<key>askForPasswordDelay</key>
-								<integer>5</integer>
+								<integer>0</integer>
 								<key>tokenRemovalAction</key>
 								<integer>0</integer>
 							</dict>
@@ -63,11 +69,14 @@
 			<string>Custom</string>
 			<key>PayloadEnabled</key>
 			<true/>
+			<key>PayloadIdentifier</key>
+			<string>B0378486-AF44-4C98-BF89-4A80F4377076</string>
 			<key>PayloadOrganization</key>
 			<string>Culture Amp</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
-
+			<key>PayloadUUID</key>
+			<string>B0378486-AF44-4C98-BF89-4A80F4377076</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -78,6 +87,8 @@
 	<string>Screen Lock Settings</string>
 	<key>PayloadEnabled</key>
 	<true/>
+	<key>PayloadIdentifier</key>
+	<string>CE9CBFD8-F646-4130-99A3-754571E4A2A5</string>
 	<key>PayloadOrganization</key>
 	<string>Culture Amp</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -86,6 +97,8 @@
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>CE9CBFD8-F646-4130-99A3-754571E4A2A5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

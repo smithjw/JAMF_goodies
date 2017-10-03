@@ -8,23 +8,20 @@ echo "Drinking some Red Bull so the Mac doesn't fall asleep"
 caffeinate -d -i -m -u &
 caffeinatepid=$!
 
-echo "Installing Zoom"
-${jamfbinary} policy -event "install-Zoom"
+echo "Installing Slack"
+${jamfbinary} policy -event "install-Slack"
 
 echo "Installing CAmper Assets"
 ${jamfbinary} policy -event "camperAssets"
 
-echo "Installing Slack"
-${jamfbinary} policy -event "install-Slack"
+echo "Installing Zoom"
+${jamfbinary} policy -event "install-Zoom"
 
 echo "Installing DockUtil"
 ${jamfbinary} policy -event "installDockUtil"
 
 echo "Installing Google Chrome"
 ${jamfbinary} policy -event "install-Google Chrome"
-
-echo "Re-enabling LittleSnitch where it had been disabled"
-${jamfbinary} policy -event "enableLittleSnitch"
 
 echo "Installing VPN Client"
 ${jamfbinary} policy -event "install-Viscosity"
