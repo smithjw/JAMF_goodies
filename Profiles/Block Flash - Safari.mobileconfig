@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadDisplayName</key>
+        <string>Block Flash - Safari</string>
+        <key>PayloadDescription</key>
+        <string>Blocks Adobe Flash Player from running in Safari</string>
+        <key>PayloadIdentifier</key>
+        <string>org.cultureamp.safari.8C285A2E-228F-48F6-8C91-404FFD3EEC1A</string>
+        <key>PayloadOrganization</key>
+        <string>Culture Amp</string>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>02665F18-14EF-4ADA-8230-F946BADF8A71</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadContent</key>
+                <dict>
+                    <key>com.apple.Safari</key>
+                    <dict>
+                        <key>Forced</key>
+                        <array>
+                            <dict>
+                                <key>mcx_preference_settings</key>
+                                <dict>
+                                    <key>ManagedPlugInPolicies</key>
+                                    <dict>
+                                        <key>com.macromedia.Flash Player.plugin</key>
+                                        <dict>
+                                            <key>PlugInFirstVisitPolicy</key>
+                                            <string>PlugInPolicyBlock</string>
+                                            <key>PlugInPreventPerSitePolicyChange</key>
+                                            <true/>
+                                        </dict>
+                                    </dict>
+                                </dict>
+                            </dict>
+                        </array>
+                    </dict>
+                </dict>
+                <key>PayloadDisplayName</key>
+                <string>Custom: (com.apple.Safari)</string>
+                <key>PayloadEnabled</key>
+                <true/>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.safari.273C9A5F-8122-46EA-8623-7C454E7D4A77</string>
+                <key>PayloadType</key>
+                <string>com.apple.ManagedClient.preferences</string>
+                <key>PayloadUUID</key>
+                <string>6D38F8DA-D7EC-48FE-9075-A05A4E44B214</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+    </dict>
+</plist>

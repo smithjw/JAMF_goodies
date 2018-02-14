@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Block Flash - Google Chrome</string>
+		<key>PayloadDescription</key>
+		<string>Blocks Adobe Flash Player from running in Google Chrome</string>
+		<key>PayloadIdentifier</key>
+		<string>org.cultureamp.chrome.511E4429-69B5-4C3C-947C-FD990A56AA62</string>
+		<key>PayloadOrganization</key>
+		<string>Culture Amp</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>6767953E-F257-47E1-A4A5-861F4CC42C0C</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DefaultPluginsSetting</key>
+				<integer>2</integer>
+				<key>PayloadDescription</key>
+				<string>Google Chrome Settings</string>
+				<key>PayloadDisplayName</key>
+				<string>Google Chrome App Defaults</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>com.google.Chrome.60982AEA-D34B-4B51-B819-9E30D1DFA324</string>
+				<key>PayloadOrganization</key>
+				<string>Contoso Inc</string>
+				<key>PayloadType</key>
+				<string>com.google.Chrome</string>
+				<key>PayloadUUID</key>
+				<string>B009E021-7A29-49A7-9AEF-3AF9466B697A</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</plist>

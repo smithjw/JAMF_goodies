@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDescription</key>
+		<string></string>
+		<key>PayloadDisplayName</key>
+		<string>Screen Lock Settings - Immediate</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>44D2006D-FE1C-4312-83E6-9C8D165B57B8</string>
+		<key>PayloadOrganization</key>
+		<string>Culture Amp</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>44D2006D-FE1C-4312-83E6-9C8D165B57B8</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDescription</key>
+				<string></string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window: Screen Saver Preferences</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>D0D5C552-D2FB-469A-A2E3-6BADF1025F57</string>
+				<key>PayloadOrganization</key>
+				<string>Culture Amp</string>
+				<key>PayloadType</key>
+				<string>com.apple.screensaver</string>
+				<key>PayloadUUID</key>
+				<string>D0D5C552-D2FB-469A-A2E3-6BADF1025F57</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>askForPassword</key>
+				<true/>
+				<key>askForPasswordDelay</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>PayloadDescription</key>
+				<string></string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>0FE0894D-6328-479E-8418-EB005231320B</string>
+				<key>PayloadOrganization</key>
+				<string>Culture Amp</string>
+				<key>PayloadType</key>
+				<string>com.apple.loginwindow</string>
+				<key>PayloadUUID</key>
+				<string>0FE0894D-6328-479E-8418-EB005231320B</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>com.apple.screensaver</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>askForPassword</key>
+									<integer>1</integer>
+									<key>askForPasswordDelay</key>
+									<integer>0</integer>
+									<key>tokenRemovalAction</key>
+									<integer>0</integer>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<key>PayloadDescription</key>
+				<string></string>
+				<key>PayloadDisplayName</key>
+				<string>Custom</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>93B86D46-E329-4AA7-9A97-791DA5510165</string>
+				<key>PayloadOrganization</key>
+				<string>Culture Amp</string>
+				<key>PayloadType</key>
+				<string>com.apple.ManagedClient.preferences</string>
+				<key>PayloadUUID</key>
+				<string>93B86D46-E329-4AA7-9A97-791DA5510165</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</plist>

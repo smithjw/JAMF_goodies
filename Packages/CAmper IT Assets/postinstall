@@ -1,4 +1,0 @@
-#!/bin/bash
-
-#Set desktop background using image in assets folder
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Application Support/CAmperIT/Desktop.jpg"'
