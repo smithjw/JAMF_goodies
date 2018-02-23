@@ -23,8 +23,8 @@ aodReason="$(adminPrompt 'Admin on Demand' 'Please enter the reason why you need
 
 function post_reason () {
   MESSAGE="$1"
-  URL=https://hooks.zapier.com/hooks/catch/31883/1t4jxk/
- 
+  URL="$4"
+
   curl -X POST --data "{\"text\": \"${MESSAGE}\", \"username\": \"${USERNAME}\"}" ${URL}
 }
 

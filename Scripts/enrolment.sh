@@ -1,6 +1,18 @@
 #!/bin/bash
 # shellcheck disable=SC2046
 
+###
+#
+#            Name:  enrolment.sh
+#     Description:  Enrolment script used to setup Macs for use
+#            Note:
+#		   Author:  James Smith <james@smithjw.me>
+#         Created:  2017-05-22
+#   Last Modified:  2018-02-23
+#         Version:  1.0
+#
+###
+
 jamfbinary=$(/usr/bin/which jamf)
 doneFile="/Users/Shared/.SplashBuddyDone"
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script is used to open a number of useful links while CAmper's are proceeding through their Onboarding
 
 open -a "Google Chrome" 'https://cultureamp.okta.com'
 open -a "Google Chrome" 'https://google.com/mail'
