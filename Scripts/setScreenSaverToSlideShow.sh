@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # Sets your Screen Saver to a Photo Slide Show
-# Tested on 10.12+
+# Tested on 10.13+
 
 # User defined variables
-
 photosLocation="/Users/Shared/WHM"
 
 # Don't edit below here
@@ -21,31 +20,19 @@ su -l $loggedInUser -c "defaults -currentHost write com.apple.screensaver idleTi
 su -l $loggedInUser -c "defaults -currentHost write com.apple.screensaver CleanExit -string \"YES\""
 
 # Settings specific to SaveHollywood
-# First we'll add in all the video files
-su -l $loggedInUser -c "$pb -c \"Add :assets.library array\" $shplist"
-
-for file in $photosLocation/*.mp4; do
-    echo "$file"
-    su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $file\" $shplist"
-done
-
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/1.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/2.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/3.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/4.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/5.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/6.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/7.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/8.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/9.mp4\" $shplist"
-# su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $photosLocation/10.mp4\" $shplist"
-
-# No we need to check some other settings
+# Firstly, let's add some of the settings
+su -l $loggedInUser -c "$pb -c \"Clear\" $shplist"
 su -l $loggedInUser -c "$pb -c \"Add :assets.randomOrder bool true\" $shplist"
 su -l $loggedInUser -c "$pb -c \"Add :assets.startWhereLeftOff bool true\" $shplist"
 su -l $loggedInUser -c "$pb -c \"Add :movie.volume.mode integer 1\" $shplist"
 
+# Now we'll create the Array for the video files
+su -l $loggedInUser -c "$pb -c \"Add :assets.library array\" $shplist"
 
-killall cfprefsd
+# And finally, we'll loop through the folder where the videos are stored and add them into the plist
+for file in $photosLocation/*.mp4; do
+    echo "$file"
+    su -l $loggedInUser -c "$pb -c \"Add :assets.library: string $file\" $shplist"
+done
 
 exit 0
