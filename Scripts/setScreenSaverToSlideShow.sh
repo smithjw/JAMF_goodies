@@ -14,7 +14,7 @@ su -l $loggedInUser -c "defaults -currentHost write com.apple.screensaver idleTi
 su -l $loggedInUser -c "defaults -currentHost write com.apple.screensaver CleanExit -string \"YES\""
 su -l $loggedInUser -c "defaults -currentHost write com.apple.ScreenSaverPhotoChooser LastViewedPhotoPath \"\""
 su -l $loggedInUser -c "defaults -currentHost write com.apple.ScreenSaverPhotoChooser SelectedFolderPath '$photosLocation'"
-su -l $loggedInUser -c "defaults -currentHost write com.apple.ScreenSaverPhotoChooser SelectedSource -int 3"
+su -l $loggedInUser -c "defaults -currentHost write com.apple.ScreenSaverPhotoChooser SelectedSource -int 10"
 su -l $loggedInUser -c "defaults -currentHost write com.apple.ScreenSaverPhotoChooser ShufflesPhotos -bool true"
 su -l $loggedInUser -c "defaults -currentHost write com.apple.ScreenSaver.iLifeSlideShows styleKey \"Classic\""
 
