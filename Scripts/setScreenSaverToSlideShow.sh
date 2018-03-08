@@ -3,6 +3,12 @@
 # Sets your Screen Saver to a Photo Slide Show
 # Tested on 10.13+
 
+# In order to make this work, I first needed to take my images and turn them into Movie files,
+# I accomplished this via ffmpeg using the following command. This took an image file as input,
+# a duration in seconds, a framerate of 1 fps, and finally, wrote out an mp4 file.
+#
+# ffmpeg -loop 1 -i input.jpg -c:v libx264 -b:v 5M -minrate 1M -bufsize 2M -r 1 -t 180 output.mp4
+
 # User defined variables
 photosLocation="/Users/Shared/WHM"
 
