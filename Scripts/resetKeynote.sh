@@ -10,6 +10,6 @@ keynoteFolder="/Users/$loggedInUser/Library/Containers/"
 # -m   move into zipfile (delete OS files)
 
 cd $keynoteFolder || exit
-zip -ry "/Users/$loggedInUser/Desktop/keynoteContainer.zip" com.apple.iWork.Keynote
+zip -rym "/Users/$loggedInUser/Desktop/keynoteContainer.zip" com.apple.iWork.Keynote
 
 exit 0
