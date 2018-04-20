@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DefaultBrowserSettingEnabled</key>
+			<true/>
+			<key>HideWebStorePromo</key>
+			<true/>
+			<key>ImportAutofillFormData</key>
+			<false/>
+			<key>ImportBookmarks</key>
+			<false/>
+			<key>ImportHistory</key>
+			<false/>
+			<key>ImportHomepage</key>
+			<false/>
+			<key>ImportSavedPasswords</key>
+			<false/>
+			<key>ImportSearchEngine</key>
+			<false/>
+			<key>MetricsReportingEnabled</key>
+			<false/>
+			<key>ForceBrowserSignin</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string>Google Chrome Settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Chrome App Defaults</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.cultureamp.Chrome</string>
+			<key>PayloadOrganization</key>
+			<string>Culture Amp</string>
+			<key>PayloadType</key>
+			<string>com.google.Chrome</string>
+			<key>PayloadUUID</key>
+			<string>C9BC214E-C7B3-44A6-B070-C07E09075CEE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Chrome Default Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>com.cultureamp.Chrome</string>
+	<key>PayloadOrganization</key>
+	<string>Culture Amp</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8ECF6E8B-3F41-4311-BC52-618D478738CA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>CBA2B5BD-025C-471A-8C68-5321F35EAD23</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

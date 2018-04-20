@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EncryptCertPayloadUUID</key>
+			<string>2677082F-19F2-424D-B4E6-8AD6FA59B65C</string>
+			<key>PayloadDisplayName</key>
+			<string>FileVault Recovery Key Escrow</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.FDERecoveryKeyEscrow.861711BA-DA66-4A29-B97D-C5A9213CEB6C</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.FDERecoveryKeyEscrow</string>
+			<key>PayloadUUID</key>
+			<string>361DEE6B-EEE8-4B64-8F58-275D15690046</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Location</key>
+			<string>Indicates where the recovery key is being shipped.</string>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>FileVault2Comm.cer</string>
+			<key>PayloadContent</key>
+			<data>
+				MIIDsTCCApmgAwIBAgIEHbzeRzANBgkqhkiG9w0BAQsFADA5MTcw
+				NQYDVQQDEy5DdWx0dXJlIEFtcCBKU1MgQnVpbHQtaW4gQ2VydGlm
+				aWNhdGUgQXV0aG9yaXR5MB4XDTE2MTAwNDA0MzQ0OFoXDTIxMTAw
+				NjA0MzQ0OFowRDEXMBUGA1UECxMORklMRVZBVUxUMkNPTU0xKTAn
+				BgNVBAMTIEpTUyBCdWlsdC1JbiBTaWduaW5nIENlcnRpZmljYXRl
+				MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1H3C5QGT
+				/MTC5PPLHu/vwh2Ckjnf80ueT3UMJ2gjJrEQ+L7lBaUMcyAolpnB
+				pXzpc+L12ngPDmZVm5YtSaCPnvglyGwhzGXy0rxvQ3ubEVgqdv/p
+				wxYTbla4+Kii5XRV764SnRVzVrFQqRWUa+9Zy8LTKGMiricVjxJp
+				gvOFyZStJyX+hCWi9Svw8CgPXY1nTwKYfsiOEyfljxz2qowNkkOp
+				yMeKDDiuG/1DFAR5yeEfbq3ILIEphuofq29WE5mkrEvFzQSN0+ou
+				zv6NtCJFz/X2QGffhY0l1X92HajAg6OwomeL614l7C//FGeFpYAQ
+				F+Fu7ebp7oyn7Sfw41iYhQIDAQABo4G1MIGyMB0GA1UdDgQWBBQe
+				2zcdKQcSm7HQN4045JBM0VgmzDATBgNVHSUEDDAKBggrBgEFBQcD
+				ATAOBgNVHQ8BAf8EBAMCAaYwDAYDVR0TAQH/BAIwADA9BgNVHR8E
+				NjA0MDKgMKAuhixodHRwczovL2pzcy5jdWx0dXJlYW1wLm5ldC9D
+				QS9KQU1GQ1JMU2VydmxldDAfBgNVHSMEGDAWgBTE/+pjw9x+c9Y1
+				FPohJz+67Oc5szANBgkqhkiG9w0BAQsFAAOCAQEAG38YbiZe1jVl
+				/zdaCBQVPjkCKDJ4yZhHioDMoHj1YJfIDxUQfdGt6mBzL0V0PkJ2
+				2E8KM233xbegNt5didfootwREx2IOGUn6YzSapytDYnk74FF3LLf
+				Kmd9IsNQkMS90iSNO+a75axSYvHKtBbf153o13KRA8aE5LlpnQvv
+				/yf7R60LE2hX6G0qW5eySU2dP4YXZnC6a+V0LaurhY6YiFiuE0no
+				CuyMOtMceHh08iYe3bZWYZBvu8N/xIEbubxNucQYbAFLDOwuwt25
+				oBlI8dyl+Jep6mYCq8x0W2b8MxXWNOPIuAfymoXixEPDVwyxqLJs
+				kqouOH4JSgbqyAMpaQ==
+			</data>
+			<key>PayloadDisplayName</key>
+			<string>Recovery Key Escrow Certificate</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.pkcs1.2677082F-19F2-424D-B4E6-8AD6FA59B65C</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>2677082F-19F2-424D-B4E6-8AD6FA59B65C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Escrows recovery keys to Culture Amp IT. macOS 10.13 only</string>
+	<key>PayloadDisplayName</key>
+	<string>Escrow Recovery Keys</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>6FEB5062-A233-4F55-95D1-80F1C3512BBE</string>
+	<key>PayloadOrganization</key>
+	<string>Culture Amp</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>34849F50-5CDD-4E56-890D-39EEAD128FFC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

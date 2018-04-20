@@ -1,5 +1,5 @@
 #!/bin/bash
-# A lot of this code was stolen from https://github.com/homebysix/jss-filevault-reissue
+# A lot of this code was reused from https://github.com/homebysix/jss-filevault-reissue
 
 LOGO_ICNS="/Library/Application Support/CAmperIT/enso@512.png"
 # Convert POSIX path of logo icon to Mac path for AppleScript
